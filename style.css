@@ -1,4 +1,15 @@
-p{
+
+/* CLASSES POUR LES PROJETS */
+
+.project{
+    background-color: aqua;
+}
+
+.projectTitle{
+    color : purple;
+}
+
+.projectDesc{
     color:green;
     font-size: 20px;  
 }
