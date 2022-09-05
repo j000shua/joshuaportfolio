@@ -1,8 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER ET NAVBAR */
+
+.header{
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+}       
+
+.logo{
+    flex-basis: 25%;
+}
+
+.navbar{
+    flex-basis: 75%;
+}
+
 
 /* CLASSES POUR LES PROJETS */
 
 .project{
     background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
 }
 
 .projectTitle{

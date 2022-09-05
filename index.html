@@ -9,25 +9,34 @@
 
     <body>
 
-        <h1>JOSHUA LINGUET - DEV JUNIOR</h1>
+       <header class="header"> 
 
-       <ul> 
-            <li>PROJETS</li>
-            <li>PARCOURS</li>
-            <li>CONTACT</li>
-            <li>SHOP</li>
-       </ul>
+            <div class="logo">
+                [LOGO]
+            </div>
 
-       <p>Ce site est mon portfolio de développeur, vous y trouverez mes <strong>projets</strong> ainsi que mon <em>parcours</em> !
-       <br> Vous décourvrirez également toutes les <mark>technologies</mark> que j'utilises.</p>
+            <nav class="navbar">
+                <a href="#idAcceuil">ACCEUIL</a>
+                <a href="#idProject">PROJETS</a>
+                <a href="#idContact">CONTACT</a>
+            </nav>
+            
+       </header>
+
+        <div id="idAcceuil" class="acceuil">
+            <h1>JOSHUA LINGUET - DEV JUNIOR</h1>
+            <p>Ce site est mon portfolio de développeur, vous y trouverez mes <strong>projets</strong> ainsi que mon <em>parcours</em> !
+            <br> Vous décourvrirez également toutes les <mark>technologies</mark> que j'utilises.</p>
+        </div>
+
        
-       <div class="project">
+       <div class="project" id="idProject">
 
            <h2 class="projectTitle">Pong Clock</h2>
 
            <p class="projectDesc">C'est une partie de Pong sans joueurs où les heures affrontent les minutes afin que le score affiche l'heure actuelle.</p>
 
-           <img src="images/pongclock.png" alt="">
+           <img src="images/pongclock.png" alt="pongclock">
 
        </div>
 
@@ -37,8 +46,8 @@
 
             <p class="projectDesc">C'est une extension qui transforme votre YouTube en moteur de recherche, les recommendations sont ainsi masquées.</p>
 
-            <img src="images/ytsearch.png" alt="">
-        </div>
+            <img src="images/ytsearch.png" alt="ytsearch">
+       </div>
 
     </body>
 
