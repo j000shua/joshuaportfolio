@@ -8,10 +8,6 @@ body{
     padding: 0;
 }
 
-main{
-    padding-top: 2rem;
-}
-
 /* HEADER ET NAVBAR */
 
 nav{
@@ -43,6 +39,7 @@ a{
 
 span{
     transition: all 200ms ease;
+    color: black;
 }
 
 span:hover{
@@ -53,17 +50,15 @@ span:hover{
 
 /* CLASSES POUR LES PROJETS */
 
-.project{
+
+
+div{
     background-color: aqua;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 50vh;
-}
-
-span{
-    color: black;
+    min-height: 100vh;
 }
 
 .projectTitle{
