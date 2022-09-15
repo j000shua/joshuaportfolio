@@ -3,14 +3,20 @@
 :root{
     font-size: 16px;
     font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+html::-webkit-scrollbar {
+    display: none;
 }
 
 body{
     margin: 0;
     padding: 0;
     background-color:rgb(147, 216, 216);
-    scroll-behavior: smooth;
 }
+
 
 /* FIN GENERAL */
 
@@ -74,12 +80,11 @@ div{
 
 .projectDesc{
     color:green;
-    font-size: 20px;  
+    font-size: 20px; 
 }
 
 /* FIN PROJETS */
 
 /***********************************************************************************************************************************************************************/
 
-/* SCROLL */
 
